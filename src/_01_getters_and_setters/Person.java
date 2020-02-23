@@ -1,6 +1,5 @@
 package _01_getters_and_setters;
 
-import javax.swing.JOptionPane;
 
 public class Person {
 	String name;
@@ -23,9 +22,7 @@ public class Person {
 	void setSuperpower(String superpower) {
 		this.superpower = superpower;
 	}
-	void toString() {
-		JOptionPane.showMessageDialog(null, "no");
-		
-		
+	public String toString() {
+		return "no";
 	}
 }
